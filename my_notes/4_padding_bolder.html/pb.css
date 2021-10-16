@@ -1,0 +1,8 @@
+div{
+    width: 30px;
+    height: 30px;
+    background-color: rebeccapurple;
+    padding: 30px;
+    /* untuk lebarnya, stylenya dan warnanya*/
+    border: 5px dotted chocolate;
+}

@@ -1,0 +1,26 @@
+div{
+    width: 500px;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid crimson;
+}
+.satu{
+    background-color: burlywood;
+}
+.dua{
+    background-color: salmon;
+}
+.tiga{
+    background-color: darkcyan ;
+}
+.container{
+    width: 500px;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid crimson;
+}
+img{
+    width: 79px;
+    height: 90px;
+    float: right;
+}

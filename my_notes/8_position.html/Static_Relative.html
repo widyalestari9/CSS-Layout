@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- position memungkinkan kita untuk menggeser sebuah elemen tanpa mempengaruhi element disekitarnya -->
+    <!-- static adalah nilai defaul dri tiap2 elemen ktka tdk di beri properti position -->
+    <!-- hampir sama dengan static relatif trlihat tdk ada perubahan padahal maju satu 
+        dimen yang memungkinkan jika menggunakan relavite dapat menggeser kemana pun -->
+    
+    <title>Position static relatif</title>
+
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+        }
+        .satu{
+            background-color: brown;
+        }
+        .dua{
+            background-color: palevioletred;
+            position: relative;
+            top:45px;
+        }
+        .tiga{
+            background-color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+
+</body>
+</html>
